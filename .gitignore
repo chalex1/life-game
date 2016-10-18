@@ -1,0 +1,9 @@
+# NodeJS modules:
+node_modules/
+
+# Builds:
+life-game-win32-x64
+life-game-win32-ia32
+life-game-linux-x64
+life-game-linux-ia32
+life-game-linux-armv7l
