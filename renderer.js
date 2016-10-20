@@ -15,6 +15,16 @@
 			
 		}
 	}
+	var initFigure = function(arr, size){
+		for(var i =0; i<size; i++){
+			arr[i] = {};
+			arr[i].state = 0;
+			if(i>size/2-8&&i<size/2-4){
+				arr[i].state = 1;
+			}
+			
+		}
+	}
 	
 	var setView = function(sArr, vArr, className){
 		
@@ -92,7 +102,8 @@
 		setNextGeneration(stateArr);
 	}
 	
-	initState(stateArr, rowSize*rowSize);
+	//initState(stateArr, rowSize*rowSize);
+	initFigure(stateArr, rowSize*rowSize);
 	life(100, generationCicle);
 	
 })()
