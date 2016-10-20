@@ -10,5 +10,13 @@ main {
 
 footer.page-footer.custom {
 
-	padding-top: 0px;
+	/**padding-top: 0px;*/
+}
+
+.life {
+	background-color: #76ff03;
+}
+
+.row.game {
+	margin-bottom: 0px;
 }
